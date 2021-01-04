@@ -27,7 +27,7 @@ The the calendar opens a user is using a daily planner to create a schedule. The
 ### WHEN user clicks the save button for that time block, the text for that event is saved in local storage.
 When user refreshes the page the saved events persist. 
 
-This can be demonstrated in screenshots 4 and 5 below, where user has saved an event for coding class at 11.00 am, and lunch at 12.00 pm.
+##This can be demonstrated in screenshots 4 and 5 below, where user has saved an event for coding class at 11.00 am, and lunch at 12.00 pm.
 
 <img src="/Screenshots/4.png">
 Figure: Coding event saved at 11.00 am
