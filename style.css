@@ -1,0 +1,114 @@
+html, body{
+    height : 100%;
+    width : 100%;
+}
+
+.text-red
+{
+  color : red;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --locked-color: blue;
+    --unlocked-color: #51ffa8;
+  }
+  .lock-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lock {
+    width: 30px;
+    height: 25px;
+    border: 3px solid var(--locked-color);
+    position: relative;
+    cursor: pointer;
+    
+  }
+  .lock:after {
+    content: "";
+    display: block;
+    background: var(--locked-color);
+    width: 4px;
+    height: 9px;
+    position: absolute;
+    margin: 1px 0 0 1px;
+ 
+  }
+  .lock:before {
+    content: "";
+    display: block;
+    background: var(--locked-color);
+    width: 4px;
+    height: 9px;
+    position: absolute;
+    margin: 1px 0 0 1px;
+  }
+  /* Locked Hover */
+  .lock:hover:before {
+    height: 12px;
+  }
+  /* Unlocked */
+  .unlocked {
+    transform: rotate(15deg);
+  }
+  .unlocked:before {
+    bottom: 130%;
+    left: 20%;
+    margin-left: 20px;
+    transform: rotate(-45deg);
+  }
+  .unlocked,
+  .unlocked:before {
+    border-color: var(--unlocked-color);
+  }
+  .unlocked:after {
+    background: var(--unlocked-color);
+  }
+
+  .bg-warning{
+      background-color: #16ff07;
+      
+  }
+  .row {
+      background: white;
+  }
+
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
